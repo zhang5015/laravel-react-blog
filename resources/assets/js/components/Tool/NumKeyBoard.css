@@ -1,0 +1,101 @@
+
+#numKeyBoard-box {
+    width: 100%;
+}
+
+#numKeyBoard-box table {
+    text-align: center;
+    width: 100%;
+    table-layout: fixed;
+    background-color: #FFF;
+    border-top: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+}
+
+#numKeyBoard-box table tr {
+    height: 80px;
+}
+
+#numKeyBoard-box table td {
+    border: 1px solid #ddd;
+    /*border-right: 0;*/
+    /*border-top: 0;*/
+}
+
+/*TODO 跟日本确认式样*/
+#numKeyBoard-box .inputKeyBoard {
+    box-sizing: border-box;
+    /*margin-top: 15px;*/
+    line-height: 40px;
+    height: 80px;
+    width: 100%;
+    outline: none;
+    font-size: 30px;
+    padding-right: 10px;
+    border: none;
+    text-align: right;
+}
+
+#numKeyBoard-box .numPadLayerBox {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5)
+}
+
+#numKeyBoard-box .numPadLayerBox .numPadLayerBox-cot {
+    width: 80%;
+    max-width: 480px;
+    margin: 0 auto;
+    margin-top: 10%;
+    background: #fff;
+}
+
+#numKeyBoard-box .fTop {
+    width: 100%;
+    height: 40px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    text-align: center;
+    font-size: 24px;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 3;
+    color: inherit;
+}
+
+#numKeyBoard-box .saveBtn {
+    background: #327931;
+}
+
+#numKeyBoard-box .cancelBtn {
+    margin-left: 20px;
+    background: #ddd;
+}
+
+#numKeyBoard-box .bsBtn {
+    background-color: #99acc1;
+}
+
+#numKeyBoard-box .clearBtn {
+    background-color: #D3D9DF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
